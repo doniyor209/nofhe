@@ -1,0 +1,104 @@
+ footer {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #1b1c3a;
+    }
+
+    .logo_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 40px;
+      color: white;
+    }
+
+    .logo_icon {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #00bcd4;
+      transform: rotate(45deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-icon span {
+      transform: rotate(-45deg);
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .logo-text {
+      text-align: left;
+      color: white;
+    }
+
+    .logo-text b {
+      display: block;
+      font-size: 18px;
+    }
+
+    .subscribe_title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    .subscribe_form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .subscribe_form input {
+      padding: 14px 20px;
+      width: 280px;
+      border-radius: 30px;
+      border: 1px solid #555;
+      background-color: transparent;
+      color: #fff;
+      font-size: 16px;
+      outline: none;
+    }
+
+    .subscribe_form button {
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(to right, #5b5fff, #7979ff);
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(91, 95, 255, 0.4);
+      transition: 0.3s;
+    }
+
+    .subscribe_form button:hover {
+      opacity: 0.9;
+    }
+
+    .footer_links {
+      margin: 40px 0 10px;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    .footer_links a {
+      color: #aaa;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer_links span {
+      margin: 0 5px;
+      color: #555;
+    }
+
+    .copyright {
+      font-size: 14px;
+      color: #666;
+    }
